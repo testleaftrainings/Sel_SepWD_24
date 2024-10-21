@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="2" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-21T12:40:29 IST" name="Suite" finished-at="2024-10-21T12:40:55 IST" duration-ms="25989">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.TC_002Login@69e153c5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-10-21T12:40:29 IST" name="Test" finished-at="2024-10-21T12:40:55 IST" duration-ms="25989">
+      <class name="testcases.TC_001CreateLead">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:28 IST" name="startReport" finished-at="2024-10-21T12:40:29 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:29 IST" name="setValues" finished-at="2024-10-21T12:40:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:29 IST" name="setUpClass" finished-at="2024-10-21T12:40:29 IST" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2fd39436]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="testcaseDetails()[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:29 IST" name="testcaseDetails" finished-at="2024-10-21T12:40:29 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseDetails -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:30 IST" name="preConditions" finished-at="2024-10-21T12:40:35 IST" duration-ms="5917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:35 IST" name="runCreateLead" data-provider="fetchData" finished-at="2024-10-21T12:40:42 IST" duration-ms="6333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vineeth]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Rajendran]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:42 IST" name="postConditions" finished-at="2024-10-21T12:40:42 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:42 IST" name="preConditions" finished-at="2024-10-21T12:40:48 IST" duration-ms="5517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:48 IST" name="runCreateLead" data-provider="fetchData" finished-at="2024-10-21T12:40:54 IST" duration-ms="6745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Qeagle]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:54 IST" name="postConditions" finished-at="2024-10-21T12:40:54 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:54 IST" name="tearDownClass" finished-at="2024-10-21T12:40:54 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testcases.TC_001CreateLead@78e4deb0]" started-at="2024-10-21T12:40:55 IST" name="endReport" finished-at="2024-10-21T12:40:55 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.TC_001CreateLead -->
+      <class name="testcases.TC_002Login">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC_002Login@69e153c5]" started-at="2024-10-21T12:40:29 IST" name="setValues" finished-at="2024-10-21T12:40:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testcases.TC_002Login@69e153c5]" started-at="2024-10-21T12:40:54 IST" name="setUpClass" finished-at="2024-10-21T12:40:54 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2fd39436]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="testcaseDetails()[pri:0, instance:testcases.TC_002Login@69e153c5]" started-at="2024-10-21T12:40:54 IST" name="testcaseDetails" finished-at="2024-10-21T12:40:54 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String, String)" because "this.extent" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String, String)" because "this.extent" is null
+at base.BaseClass.testcaseDetails(BaseClass.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseDetails -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC_002Login@69e153c5]" started-at="2024-10-21T12:40:55 IST" name="preConditions" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729494655085" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="runLogin(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_002Login@69e153c5]" started-at="2024-10-21T12:40:55 IST" name="runLogin" data-provider="fetchData" finished-at="2024-10-21T12:40:55 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String, String)" because "this.extent" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String, String)" because "this.extent" is null
+at base.BaseClass.testcaseDetails(BaseClass.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC_002Login@69e153c5]" started-at="2024-10-21T12:40:55 IST" name="preConditions" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729494655090" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC_002Login@69e153c5]" started-at="2024-10-21T12:40:55 IST" name="postConditions" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729494655090" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method signature="runLogin(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_002Login@69e153c5]" started-at="2024-10-21T12:40:55 IST" name="runLogin" data-provider="fetchData" finished-at="2024-10-21T12:40:55 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String, String)" because "this.extent" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String, String)" because "this.extent" is null
+at base.BaseClass.testcaseDetails(BaseClass.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC_002Login@69e153c5]" started-at="2024-10-21T12:40:55 IST" name="postConditions" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729494655094" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testcases.TC_002Login@69e153c5]" started-at="2024-10-21T12:40:55 IST" name="tearDownClass" finished-at="2024-10-21T12:40:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testcases.TC_002Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
